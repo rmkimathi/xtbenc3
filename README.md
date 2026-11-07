@@ -6,7 +6,7 @@ See the [Developer Guide](docs/DEVELOPER_GUIDE.md) for the current PySide6 archi
 
 ![Options](images/xtbenc-01.png)
 
-### Setup and packaging
+## Setup and packaging
 
 XTB Encoder uses PySide6 for its interface. Install dependencies in a virtual environment, then launch the app:
 
