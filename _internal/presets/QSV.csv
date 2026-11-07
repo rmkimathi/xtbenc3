@@ -1,0 +1,5 @@
+"-i {input} -c:v h264_qsv -global_quality 28 -g 30 -map_metadata -1 {output_dir}"
+"-i {input} -c:v h264_qsv -ss 00:01:00 -t 60 -global_quality 28 -g 30 -map_metadata -1 {output_dir}"
+"..."
+"-i {input} -c:v hevc_qsv -pix_fmt nv12 -preset veryfast -bf 3 -global_quality 28 -g 30 -map_metadata -1 {output_dir}"
+"-i {input} -c:v hevc_qsv -pix_fmt p010le -preset veryfast -bf 3 -global_quality 28 -g 30 -map_metadata -1 {output_dir}"

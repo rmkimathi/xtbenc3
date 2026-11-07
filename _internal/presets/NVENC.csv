@@ -1,0 +1,2 @@
+"-i {input} -c:v h264_nvenc -qp 28 -g 30 -map_metadata -1 {output_dir}"
+"-i {input} -c:v hevc_nvenc -qp 28 -g 30 -map_metadata -1 {output_dir}"

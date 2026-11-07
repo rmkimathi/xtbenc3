@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=XTB Encoder 2
+Comment=XTB Encoder is a GUI for ffmpeg
+Exec=/home/user/.local/pyside_xtbenc/xtbenc2.bin
+Path=/home/user/.local/pyside_xtbenc/
+Icon=xtbenc2
+Terminal=false
+Type=Application
+Categories=AudioVideo;AudioVideoEditing;
+StartupWMClass=xtbenc2
