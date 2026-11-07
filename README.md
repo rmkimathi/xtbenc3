@@ -32,7 +32,7 @@ shiboken6                 6.12.0
 tkinterdnd2               0.6.3
 ```
 
-**Ubuntu**
+### Ubuntu
 
 ```sh
 .venv/bin/python xtbenc2.py
@@ -40,7 +40,7 @@ tkinterdnd2               0.6.3
 .venv/bin/pyinstaller --add-data="_internal/presets:presets" xtbenc2.py
 ```
 
-**Windows**
+### Windows
 
 ```sh
 python xtbenc.py
