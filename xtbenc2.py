@@ -95,7 +95,7 @@ class EncoderWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle('XTB Encoder')
-        self.setWindowIcon(QIcon('_internal/presets/xtbenc2.ico'))
+        self.setWindowIcon(QIcon('_internal/presets/xtbenc.ico'))
         self.resize(1280, 720)
         self.presets = {codec: load_csv_preset(path) for codec, path in PRESET_FILES.items()}
         self.process = QProcess(self)
