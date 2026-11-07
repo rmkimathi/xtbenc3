@@ -6,7 +6,7 @@ See the [Developer Guide](docs/DEVELOPER_GUIDE.md) for the current PySide6 archi
 
 ![Options](images/xtbenc-01.png)
 
-# Setup and packaging
+## Setup and packaging
 
 XTB Encoder uses PySide6 for its interface. Install dependencies in a virtual environment, then launch the app:
 
@@ -32,7 +32,7 @@ shiboken6                 6.12.0
 tkinterdnd2               0.6.3
 ```
 
-### Ubuntu
+**Ubuntu**
 
 ```sh
 .venv/bin/python xtbenc2.py
@@ -40,7 +40,7 @@ tkinterdnd2               0.6.3
 .venv/bin/pyinstaller --add-data="_internal/presets:presets" xtbenc2.py
 ```
 
-### Windows
+**Windows**
 
 ```sh
 python xtbenc.py
@@ -48,12 +48,12 @@ python xtbenc.py
 pyinstaller --noconsole --icon=xtbenc.ico --add-data="_internal/presets;presets" xtbenc2.py
 ```
 
-# Usage
+## Usage
 
 `ffmpeg` and `ffprobe` should be on your PATH, or place static binaries beside `xtbenc2.py`. FFmpeg arguments can be typed in the Templates combo box or permanently added by editing the CSV preset files in `_internal/presets`.
 
 
-# Reference
+## Reference
 
 [PySide6](https://doc.qt.io/qtforpython-6/)
 
