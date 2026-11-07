@@ -48,12 +48,12 @@ python xtbenc.py
 pyinstaller --noconsole --icon=xtbenc.ico --add-data="_internal/presets;presets" xtbenc2.py
 ```
 
-### Usage
+## Usage
 
 `ffmpeg` and `ffprobe` should be on your PATH, or place static binaries beside `xtbenc2.py`. FFmpeg arguments can be typed in the Templates combo box or permanently added by editing the CSV preset files in `_internal/presets`.
 
 
-### Reference
+## Reference
 
 [PySide6](https://doc.qt.io/qtforpython-6/)
 
