@@ -49,6 +49,6 @@ class AboutDialog(QDialog):
         self.setStyleSheet("""
             QDialog {
                 border: 1px solid #a0a0a0;
-                background-color: #fcfcfcf;
+                background-color: #fcfcfc;
             }
         """)
